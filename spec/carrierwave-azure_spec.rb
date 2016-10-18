@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe CarrierWave::Uploader::Base do
   it 'should define azure as a storage engine' do
-    expect(described_class.storage_engines[:azure]).to eq 'CarrierWave::Storage::Azure'
+    expect(described_class.storage_engines[:azure]).to eq 'C::Azure::Storage::Azure'
   end
 
   it 'should define azure options' do

@@ -2,13 +2,13 @@ require 'spec_helper'
 require 'tempfile'
 require 'open-uri'
 
-describe CarrierWave::Storage::Azure do
+describe C::Azure::Storage::Azure do
   class TestUploader < CarrierWave::Uploader::Base
     storage :azure
   end
 
   let(:uploader) { TestUploader.new }
-  let(:storage)  { CarrierWave::Storage::Azure.new uploader }
+  let(:storage)  { C::Azure::Storage::Azure.new uploader }
 
   shared_examples_for 'an expected return value' do
     let(:stored_file) do

@@ -1,6 +1,6 @@
 require 'carrierwave'
-require 'carrierwave/azure/version'
-require 'carrierwave/storage/azure'
+require 'c/azure/blob/version'
+require 'c/azure/storage/azure'
 
 class CarrierWave::Uploader::Base
   add_config :azure_storage_account_name
@@ -9,6 +9,6 @@ class CarrierWave::Uploader::Base
   add_config :azure_container
 
   configure do |config|
-    config.storage_engines[:azure] = 'CarrierWave::Storage::Azure'
+    config.storage_engines[:azure] = 'C::Azure::Storage::Azure'
   end
 end

@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'rspec'
 require 'carrierwave'
-require 'carrierwave-azure'
+require 'c-azure'
 require 'environment'
 
 RSpec.configure do |config|
