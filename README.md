@@ -1,7 +1,7 @@
 # Carrierwave::Azure
 
 Windows Azure blob storage support for [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
-Inspired from [carrierwave-azure](https://github.com/unosk/carrierwave-azure)
+Inspired by [carrierwave-azure](https://github.com/unosk/carrierwave-azure)
 
 ## Installation
 
