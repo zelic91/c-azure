@@ -1,12 +1,13 @@
 # Carrierwave::Azure
 
 Windows Azure blob storage support for [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
+Inspired from [carrierwave-azure](https://github.com/unosk/carrierwave-azure)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'carrierwave-azure'
+    gem 'c-azure'
 
 And then execute:
 
@@ -16,7 +17,7 @@ And then execute:
 
 First configure CarrierWave with your Azure storage credentials
 
-see [Azure/azure-sdk-for-ruby](https://github.com/Azure/azure-sdk-for-ruby#via-code)
+see [Azure/azure-storage-ruby](https://github.com/Azure/azure-storage-ruby)
 
 ```ruby
 CarrierWave.configure do |config|
